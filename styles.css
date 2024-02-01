@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    padding: 0 30px;
+    margin-inline: auto;
+}
+.main-content{
+    width: 100%;
+}
+.main-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 544px;
+    background-image: url("/images/main-image.jpg");
+}
+
+.wrapper{
+    display: flex;
+}
+
+.wrapper aside{
+    width: 109px;
+background: #131313;
+
+}
+
+
+.left-side{
+    display: flex;
+    justify-content: center;
+}
+.left-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.watch-now_button{
+background: #080808;
+border: 0.954145px solid #FF4E4E;
+border-radius: 40.0741px;
+width: 151px;
+height: 44px;
+color: #FF4E4E;
+cursor: pointer;
+transition: transform 0.3s ease;
+}
+.watch-now_button:hover{
+  transform: scale(1.1);
+}
+.watch-now_button img{
+    margin-right: 5px;
+}
+
+.main-image h1{
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 120px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+}
+
+.short-info{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+color: #747474;
+}
+
+.movie-description{
+    max-width: 386px;
+    padding-top: 20px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 26px;
+max-width: 386px;
+color: #FFFFFF;
+}
+
+.movie-casts{
+    padding-bottom: 49px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+}
+.left-center>div{
+    cursor: pointer;
+}
+
+
+.left-side{
+    padding-top: 30px;
+}
+
+.movie-director{
+    padding-top: 24px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.side-item{
+padding-top: 39px;
+}
+
+.films-section{
+    background: rgb(35, 35, 35);
+}
+
+.title{
+    padding-top: 81px;
+    padding-bottom: 35px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+
+
+color: #FFFFFF;
+
+
+}
+
+.movies-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding-bottom: 81px;
+    cursor: pointer;
+}
+.movies-grid div{
+    transition: transform 0.3s ease-out;
+    overflow: hidden;
+}
+
+.movies-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.movies-grid div:hover{
+    transform: scale(1.1);
+
+}
