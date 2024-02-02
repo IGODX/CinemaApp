@@ -153,6 +153,9 @@ color: #FFFFFF;
     padding-bottom: 81px;
     cursor: pointer;
 }
+.movies-grid img{
+    max-width: 100%;
+}
 .movies-grid div{
     transition: transform 0.3s ease-out;
     overflow: hidden;
